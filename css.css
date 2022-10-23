@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after{
+ box-sizing: border-box;}
+
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    width: 1440px;}
+.fonblok1{
+height: 793px;
+background:url(../veb/img/img1.png) center no-repeat ;
+background-size: cover;}
+.heder{
+position: absolute ;
+top: 0;left: 0;right: 0;z-index: 1000;
+}
+.boxheder{
+    display: flex;
+    align-items: center;
+margin: 0 auto;
+width: 1322px;
+height: 91px ;
+}
+.BrandName{
+    display: inline-block;
+    margin: 10px 10px 10px 10px ;
+
+font-size: 18px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+background-color: rgb(18, 138, 98);
+background-size: cover;}
+.nav_prop{
+display: flex;
+align-items: center;
+width: 625px;
+height: 44px;
+margin: 0px 0px 0px 100px;
+background-color: rgb(18, 30, 138);
+background-size: cover;}
+.nav1_prop{
+    display: inline-block;}
+.nav2_prop{
+    left: 160px;
+    display: inline-block;
+    margin: 0px 0px 0px 100px;}
+.anav{
+  font-size: 10px;
+  font-weight: 700;
+  color: aliceblue;
+  text-decoration: none;}
+.anav:hover{color: rgb(191, 134, 65);}
+.but1{
+
+        width: 160px;
+        height: 44px;
+        font-size: 10px;
+        font-weight: 700;
+        color: aliceblue;
+        text-decoration: none;
+        background-color: #EEDDFF;
+        border-radius: 10px;
+    
+    }
